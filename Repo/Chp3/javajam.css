@@ -5,7 +5,8 @@ header {color: #8B3826;
         background-color: #D2B48C;
         text-align: center; }
 h1 { line-height: 200%; }
-h2 { color: #8C3826; }
+h2 { color: #8C3826;
+     text-align: center; }
 nav { font-weight: bold;
       font-size: 1.25em;
 	  word-spacing: 1em; }
@@ -17,3 +18,4 @@ footer { background-color: #333333;
          font-size: .75em;
          text-align: center;
          font-style: italic; }
+footer p { text-indent: 0; }
