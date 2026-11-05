@@ -19,3 +19,7 @@ footer { background-color: #D2B48C;
          text-align: center;
          font-style: italic; }
 footer p { text-indent: 0; }
+#wrapper { width: 80%;
+           margin-right: auto;
+           background-color: #FEFAEB;
+           margin-left: auto;}
