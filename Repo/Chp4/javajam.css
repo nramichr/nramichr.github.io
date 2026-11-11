@@ -1,0 +1,27 @@
+body { background-color: #E2FFFF; 
+       color: #15495E;
+       font-family: Tahoma, Arial, sans-serif; }
+header {color: #8B3826;
+        background-color: #D2B48C;
+        text-align: center; }
+h1 { line-height: 200%; }
+h2 { color: #8C3826;
+    font-weight: bold; 
+    text-align: center; }
+nav { font-weight: bold;
+      font-size: 1.25em;
+	  word-spacing: 1em;
+    text-align: center;}
+nav a { text-decoration: none; }
+p { font-size: .90em;
+	text-indent: 3em; }
+ul { font-weight: bold; } 
+footer { background-color: #D2B48C;
+         font-size: .75em;
+         text-align: center;
+         font-style: italic; }
+footer p { text-indent: 0; }
+#wrapper { width: 80%;
+           margin-right: auto;
+           background-color: #FEFAEB;
+           margin-left: auto;}
