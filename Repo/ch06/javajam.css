@@ -15,6 +15,7 @@ header {color: #8B3826;
         background-image: url(coffeelogo.jpg);
         background-repeat: no-repeat; 
         padding-left: 240px;}
+header a { text-decoration: none; }
 header a:link { color: #231814; }
 header a:visited { color: #231814; }
 header a:hover { color: #fef6c2; }
@@ -42,15 +43,16 @@ nav a { text-decoration: none; }
 nav a:link { color: #FEF6C2; }
 nav a:visited { color: #D2B48C; }
 nav a:hover { color: #CC9933; }
+nav a { text-decoration: none; }
 nav ul { list-style-type: none;
         padding-left: 0; }
 main { padding-left: 0;
-       padding-right: 2em;
+       padding-right: 0;
        padding-top: 0;
        background-color: #fef6c2;
        display: block;
        overflow: auto; }
-main h2 h3 h4 p ul div dl { 
+main h2, h3, h4, p, ul, div, dl, footer{ 
     padding-left: 3em;
     padding-right: 2em; 
     }
@@ -69,11 +71,12 @@ footer { clear: both;
 footer p { text-indent: 0; }
 #wrapper { width: 80%;
            margin-right: auto;
-           background-color: #FEFAEB;
+           background-color: #231814;
            margin-left: auto;
            min-width: 900px; 
            max-width: 1280px;
-           box-shadow: 0cm 5px 10px #0a0a0a; }
+           box-shadow: 0cm 5px 10px #0a0a0a;
+            padding: 0; }
 .details { padding-left: 20%;
            padding-right: 20%;
            overflow: auto; }
