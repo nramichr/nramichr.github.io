@@ -84,7 +84,6 @@ footer p { text-indent: 0; }
 #mobile { display: inline; }
 #desktop { display: none; }
 
-/* Medium display */
 @media (min-width: 600px) {
   header { text-align: center;
            padding-left: 0; }
@@ -106,7 +105,6 @@ footer p { text-indent: 0; }
        margin-right: 10%; }
 }
 
-/* Large display */
 @media (min-width: 1024px) {
   @supports (display: grid) {
     header { grid-area: header;
