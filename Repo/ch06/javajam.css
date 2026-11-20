@@ -7,9 +7,8 @@ body { background-color: #E2FFFF;
 	   background-size: cover;
 	   background-attachment: fixed; 
     }
-header {color: #8B3826;
+header {color: #231814;
         background-color: #D2B48C;
-        text-align: center;
         padding-top: 5px;
         padding-bottom: 5px; 
         background-image: url(coffeelogo.jpg);
@@ -49,18 +48,17 @@ nav ul { list-style-type: none;
 main { padding-left: 0;
        padding-right: 0;
        padding-top: 0;
+       margin-left: 200px;
        background-color: #fef6c2;
        display: block;
        overflow: auto; }
-main h2, h3, h4, p, ul, div, dl, footer{ 
+main h2, main h3, main h4, main p, main div, main ul, main dl { 
     padding-left: 3em;
     padding-right: 2em; 
     }
 p { font-size: .90em;
 	text-indent: 3em; }
 ul { font-weight: bold; }
-img{ padding-left: 10%;
-    padding-right: 10%; }
 footer { clear: both;
          background-color: #D2B48C;
          font-size: .60em;
@@ -81,8 +79,8 @@ footer p { text-indent: 0; }
            padding-right: 20%;
            overflow: auto; }
 .floatleft { float: left;
-            padding-left: 2em;
-            padding-right: 2em; }
+            padding-right: 2em;
+            padding-bottom: 2em; }
 .onethird { width: 33%;
            float: left; }
 #homehero { height: 300px;
